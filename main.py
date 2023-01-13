@@ -28,8 +28,8 @@ def calculate(lst):
     sum1 = matA.sum(axis=1)
     sumf = matA.sum()
 
-    desvest0 = np.std(matA, axis=0)
-    desvest1 = np.std(matA, axis=1)
+    desvest0 = np.std(matA, 0)
+    desvest1 = np.std(matA, 1)
     desvestf = np.std(matA)
 
     var0 = matA.var(0)
