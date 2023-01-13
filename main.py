@@ -45,7 +45,3 @@ def calculate(lst):
         'sum': [list(sum0), list(sum1), sumf]
     }
     return diccionario
-
-
-a = calculate([2,6,2,8,4,0,1])
-print(a)
